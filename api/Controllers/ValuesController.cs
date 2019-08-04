@@ -25,7 +25,7 @@ namespace netcore_api.Controllers
 
     public static class WeekDays
     {
-        private static readonly string[] weekDays = new string[] { "Saturday", "Sunday", "Monday", "Tuesday", "Saturday", "Saturday", "Friday" };
+        private static readonly string[] weekDays = new string[] { "Saturday", "Sunday", "Monday", "Tuesday", "Wednesday", "Saturday", "Friday" };
 
         public static string GetDayName(int dayNumber)
         {
